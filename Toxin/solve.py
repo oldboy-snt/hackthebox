@@ -3,7 +3,7 @@ from termcolor import colored
 
 text = colored(' DEBUG ', 'red', attrs=['reverse', 'blink', 'bold'])
 context.log_level = 'DEBUG'
-DEBUG = 0
+DEBUG = 1
 file = './toxin'
 exe  = ELF(file)
 
